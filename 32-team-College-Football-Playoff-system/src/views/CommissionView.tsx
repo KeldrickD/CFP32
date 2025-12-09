@@ -1,4 +1,4 @@
-import { CheckCircle2, XCircle, Shield, Brain, LineChart, Gavel } from 'lucide-react';
+import { CircleCheck, CircleX, Shield, Brain, Gavel } from 'lucide-react';
 
 export const CommissionView = () => {
     return (
@@ -24,7 +24,7 @@ export const CommissionView = () => {
                     {/* Old Model */}
                     <div className="bg-slate-900/50 border border-slate-800 p-8 rounded-2xl relative overflow-hidden group">
                         <div className="absolute top-0 right-0 p-4 opacity-10">
-                            <XCircle className="w-24 h-24 text-red-500" />
+                            <CircleX className="w-24 h-24 text-red-500" />
                         </div>
                         <div className="relative z-10">
                             <h2 className="text-xl font-bold text-slate-300 mb-6 flex items-center gap-2">
@@ -32,19 +32,19 @@ export const CommissionView = () => {
                             </h2>
                             <ul className="space-y-4">
                                 <li className="flex gap-3 text-slate-500">
-                                    <XCircle className="w-5 h-5 text-red-900 shrink-0" />
+                                    <CircleX className="w-5 h-5 text-red-900 shrink-0" />
                                     <span>Rank teams subjectively</span>
                                 </li>
                                 <li className="flex gap-3 text-slate-500">
-                                    <XCircle className="w-5 h-5 text-red-900 shrink-0" />
+                                    <CircleX className="w-5 h-5 text-red-900 shrink-0" />
                                     <span>Debate resumes behind closed doors</span>
                                 </li>
                                 <li className="flex gap-3 text-slate-500">
-                                    <XCircle className="w-5 h-5 text-red-900 shrink-0" />
+                                    <CircleX className="w-5 h-5 text-red-900 shrink-0" />
                                     <span>Pick 4 schools (exclude 97%)</span>
                                 </li>
                                 <li className="flex gap-3 text-slate-500">
-                                    <XCircle className="w-5 h-5 text-red-900 shrink-0" />
+                                    <CircleX className="w-5 h-5 text-red-900 shrink-0" />
                                     <span>Defend political decisions weekly</span>
                                 </li>
                             </ul>
@@ -62,19 +62,19 @@ export const CommissionView = () => {
                             </h2>
                             <ul className="space-y-4">
                                 <li className="flex gap-3 text-slate-300">
-                                    <CheckCircle2 className="w-5 h-5 text-premium-green shrink-0" />
+                                    <CircleCheck className="w-5 h-5 text-premium-green shrink-0" />
                                     <span>Define & audit objective metrics</span>
                                 </li>
                                 <li className="flex gap-3 text-slate-300">
-                                    <CheckCircle2 className="w-5 h-5 text-premium-green shrink-0" />
+                                    <CircleCheck className="w-5 h-5 text-premium-green shrink-0" />
                                     <span>Maintain data standards & integrity</span>
                                 </li>
                                 <li className="flex gap-3 text-slate-300">
-                                    <CheckCircle2 className="w-5 h-5 text-premium-green shrink-0" />
+                                    <CircleCheck className="w-5 h-5 text-premium-green shrink-0" />
                                     <span>Manage scheduling & NIL economics</span>
                                 </li>
                                 <li className="flex gap-3 text-slate-300">
-                                    <CheckCircle2 className="w-5 h-5 text-premium-green shrink-0" />
+                                    <CircleCheck className="w-5 h-5 text-premium-green shrink-0" />
                                     <span>Distribute revenue & run the tourney</span>
                                 </li>
                             </ul>
