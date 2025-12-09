@@ -100,7 +100,8 @@ By expanding to 32 teams, embedding bowls, and aligning incentives for players, 
 
 This project is built using:
 
-* **Next.js** (App Router)
+* **Vite** (Build tool)
+* **React** (Framework)
 * **TypeScript**
 * **TailwindCSS**
 * **Vercel** (hosting + deployment)
@@ -151,11 +152,10 @@ git push origin main
 
 Then visit **Vercel → Add New Project → Import from GitHub**.
 
-Vercel auto-detects:
-
-* Framework: Next.js
-* Build command: `next build`
-* Output directory: `.next`
+**Important Vercel Settings:**
+* **Framework Preset:** Vite
+* **Build Command:** `npm run build`
+* **Output Directory:** `dist`
 
 Click **Deploy**, and you're live.
 
